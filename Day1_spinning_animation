@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        background-color: black;
+    }
+    span
+    {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    img
+    {
+        animation: spin 9s ease infinite;
+        width: 300px;
+        height: 300px;
+        border-radius: 12px;
+       
+    }
+    @keyframes spin {
+  to {
+    transform: rotateY(4turn);
+  }
+}
+</style>
+<body>
+    <span>
+        <img src="https://down-vn.img.susercontent.com/file/ad3050813d88b848287b3e46500898b2" alt="gojo">
+
+    </span>
+</body>
+</html>
